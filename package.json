@@ -1,0 +1,27 @@
+{
+  "name": "vdom-versionify",
+  "version": "0.0.0",
+  "description": "Gulp task which generates a versioned attr on DOM elements so you can track what module generated the piece of the DOM you are inspecting.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec -u tdd test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommymessbauer/vdom-versionify.git"
+  },
+  "author": "Tommy Messbauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommymessbauer/vdom-versionify/issues"
+  },
+  "homepage": "https://github.com/tommymessbauer/vdom-versionify#readme",
+  "devDependencies": {
+    "memory-stream": "0.0.3",
+    "vdom-to-html": "^2.1.0",
+    "virtual-dom": "^2.0.1"
+  }
+}
