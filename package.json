@@ -1,6 +1,6 @@
 {
   "name": "vdom-versionify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp task which generates a versioned attr on DOM elements so you can track what module generated the piece of the DOM you are inspecting.",
   "main": "index.js",
   "directories": {
